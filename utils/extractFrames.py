@@ -1,11 +1,11 @@
 import cv2, os
 
-video_dir = "../Videos"
-output_dir = "../Frames"
+video_dir = "../Videos_Altered"
+output_dir = "../Frames_Altered"
 os.makedirs(output_dir, exist_ok=True)
 
 for video_file in os.listdir(video_dir):
-    if not video_file.endswith(".MP4"):
+    if not video_file.endswith(".mp4"):
         continue
     cap = cv2.VideoCapture(os.path.join(video_dir, video_file))
     i = 0

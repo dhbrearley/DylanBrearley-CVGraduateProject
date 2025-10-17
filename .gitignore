@@ -212,3 +212,6 @@ __marimo__/
 *.mp4
 *.MP4:*
 *.png
+
+1stTrain.py
+LeaveOneOutModel.py
