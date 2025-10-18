@@ -7,10 +7,10 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import joblib
 import os
 
-DATA_PATH = "../Data/metrics_labeled_updated.csv"
-MODEL_DIR = "Models"
-MODEL_PATH = os.path.join(MODEL_DIR, "xgb_model_noACS.json")
-SCALER_PATH = os.path.join(MODEL_DIR, "scaler_noACS.joblib")
+DATA_PATH = "../Data/metrics_labeled_videoID.csv"
+MODEL_DIR = "../Models"
+MODEL_PATH = os.path.join(MODEL_DIR, "xgb_quality_model2.json")
+SCALER_PATH = os.path.join(MODEL_DIR, "quality_scaler2.joblib")
 
 os.makedirs(MODEL_DIR, exist_ok=True)
 
